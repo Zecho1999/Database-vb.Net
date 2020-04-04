@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database1" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True" SettingsObjectName="Data_Terminal.My.MySettings" SettingsPropertyName="Database1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[tbcrew&#xD;&#xA;]" Member="tbcrew__s">
+    <Type Name="tbcrew__">
+      <Column Name="busid" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="crewid" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="crewsopir" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="crewkernet" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[id trayek]" Member="id_trayek" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tbarmada_tbcrew__" Member="tbarmada" ThisKey="crewid" OtherKey="crewid" Type="tbarmada" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbpenumpang" Member="tbpenumpangs">
+    <Type Name="tbpenumpang">
+      <Column Name="Idpenumpang" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nama" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="jenis" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="kelas" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="asal" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="tujuan" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="keberangkatan" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="kedatangan" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tbarmada_tbpenumpang" Member="tbarmada" ThisKey="Idpenumpang" OtherKey="idpenumpang" Type="tbarmada" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbpo" Member="tbpos">
+    <Type Name="tbpo">
+      <Column Name="poid" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="busid" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="crewid" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="poname" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="poaddress" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="jenis" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="jumlah" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="idtrayek" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="tbarmada_tbpo" Member="tbarmada" ThisKey="poid" OtherKey="poid" Type="tbarmada" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbtrayek" Member="tbtrayeks">
+    <Type Name="tbtrayek">
+      <Column Name="Idtrayek" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="busid" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ponames" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="asal" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="dari" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="keberangkatan" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="kedatangan" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tbarmada_tbtrayek" Member="tbarmada" ThisKey="Idtrayek" OtherKey="idtrayek" Type="tbarmada" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbarmada" Member="tbarmadas">
+    <Type Name="tbarmada">
+      <Column Name="crewid" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="busid" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="poid" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="idpenumpang" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="poname" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="jenis" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="kelas" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="jumlah" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="idtrayek" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tbarmada_tbcrew__" Member="tbcrew__s" ThisKey="crewid" OtherKey="crewid" Type="tbcrew__" />
+      <Association Name="tbarmada_tbpenumpang" Member="tbpenumpangs" ThisKey="idpenumpang" OtherKey="Idpenumpang" Type="tbpenumpang" />
+      <Association Name="tbarmada_tbpo" Member="tbpos" ThisKey="poid" OtherKey="poid" Type="tbpo" />
+      <Association Name="tbarmada_tbtrayek" Member="tbtrayeks" ThisKey="idtrayek" OtherKey="Idtrayek" Type="tbtrayek" />
+    </Type>
+  </Table>
+</Database>

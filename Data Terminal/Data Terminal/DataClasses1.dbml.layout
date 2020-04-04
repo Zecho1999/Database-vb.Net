@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="2d6a5f22-dbd0-4496-b217-65a97399d365" absoluteBounds="0.5, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataClasses1DataContext/tbcrew__" />
+      <nestedChildShapes>
+        <elementListCompartment Id="86cd54e7-17c0-4a80-975f-3ac53334df75" absoluteBounds="0.515, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d467e030-677f-4b4d-8e3f-2c1dcc6b2d13" absoluteBounds="0.5, 2.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DataClasses1DataContext/tbpenumpang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c5b12cb5-c43c-421f-a45d-748a1f8dcfd9" absoluteBounds="0.51500000000000012, 2.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="27c7d585-369a-4aa3-827f-b365eee7b95c" absoluteBounds="5.875, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DataClasses1DataContext/tbpo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="87f43e1e-cbcf-462e-9b1e-1776809b46a0" absoluteBounds="5.89, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="62ad6c75-c768-4bbd-a7c6-04f4c86d4198" absoluteBounds="5.875, 3, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataClasses1DataContext/tbtrayek" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dfd8d822-a2f6-4d7f-9fc0-2caf6aa20498" absoluteBounds="5.89, 3.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1790ded4-cb93-4cca-a748-9fa6d1e22752" absoluteBounds="3.25, 1.875, 2, 2.5401025390625">
+      <DataClassMoniker Name="/DataClasses1DataContext/tbarmada" />
+      <nestedChildShapes>
+        <elementListCompartment Id="591af905-7efc-42ba-a413-e7bf6f860cf3" absoluteBounds="3.2649999999999997, 2.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.25 : 2.07294840494792); (2.5 : 2.07294840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/tbarmada/tbarmada_tbcrew__" />
+      <nodes>
+        <classShapeMoniker Id="1790ded4-cb93-4cca-a748-9fa6d1e22752" />
+        <classShapeMoniker Id="2d6a5f22-dbd0-4496-b217-65a97399d365" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.25 : 3.45755126953125); (2.5 : 3.45755126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/tbarmada/tbarmada_tbpenumpang" />
+      <nodes>
+        <classShapeMoniker Id="1790ded4-cb93-4cca-a748-9fa6d1e22752" />
+        <classShapeMoniker Id="d467e030-677f-4b4d-8e3f-2c1dcc6b2d13" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.25 : 2.36140055338542); (5.875 : 2.36140055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/tbarmada/tbarmada_tbpo" />
+      <nodes>
+        <classShapeMoniker Id="1790ded4-cb93-4cca-a748-9fa6d1e22752" />
+        <classShapeMoniker Id="27c7d585-369a-4aa3-827f-b365eee7b95c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.25 : 3.70755126953125); (5.875 : 3.70755126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/tbarmada/tbarmada_tbtrayek" />
+      <nodes>
+        <classShapeMoniker Id="1790ded4-cb93-4cca-a748-9fa6d1e22752" />
+        <classShapeMoniker Id="62ad6c75-c768-4bbd-a7c6-04f4c86d4198" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,32 @@
+C:\Users\User\Documents\vb\Data Terminal\Data Terminal\bin\Debug\Data Terminal.exe.config
+C:\Users\User\Documents\vb\Data Terminal\Data Terminal\bin\Debug\Database1.mdf
+C:\Users\User\Documents\vb\Data Terminal\Data Terminal\bin\Debug\Database1_log.ldf
+C:\Users\User\Documents\vb\Data Terminal\Data Terminal\bin\Debug\Data Terminal.exe
+C:\Users\User\Documents\vb\Data Terminal\Data Terminal\bin\Debug\Data Terminal.pdb
+C:\Users\User\Documents\vb\Data Terminal\Data Terminal\bin\Debug\Data Terminal.xml
+C:\Users\User\Documents\vb\Data Terminal\Data Terminal\obj\Debug\Data_Terminal.Form1.resources
+C:\Users\User\Documents\vb\Data Terminal\Data Terminal\obj\Debug\Data_Terminal.Resources.resources
+C:\Users\User\Documents\vb\Data Terminal\Data Terminal\obj\Debug\Data Terminal.vbproj.GenerateResource.Cache
+C:\Users\User\Documents\vb\Data Terminal\Data Terminal\obj\Debug\Data Terminal.exe
+C:\Users\User\Documents\vb\Data Terminal\Data Terminal\obj\Debug\Data Terminal.xml
+C:\Users\User\Documents\vb\Data Terminal\Data Terminal\obj\Debug\Data Terminal.pdb
+H:\vb\Data Terminal\Data Terminal\bin\Debug\Data Terminal.exe.config
+H:\vb\Data Terminal\Data Terminal\obj\Debug\Data Terminal.exe
+H:\vb\Data Terminal\Data Terminal\obj\Debug\Data Terminal.xml
+H:\vb\Data Terminal\Data Terminal\obj\Debug\Data Terminal.pdb
+C:\Users\User\Documents\Data Terminal\Data Terminal\bin\Debug\Data Terminal.exe.config
+C:\Users\User\Documents\Data Terminal\Data Terminal\obj\Debug\Data Terminal.exe
+C:\Users\User\Documents\Data Terminal\Data Terminal\obj\Debug\Data Terminal.xml
+C:\Users\User\Documents\Data Terminal\Data Terminal\obj\Debug\Data Terminal.pdb
+C:\Users\User\Documents\Data Terminal\Data Terminal\obj\Debug\Data_Terminal.Form1.resources
+C:\Users\User\Documents\Data Terminal\Data Terminal\obj\Debug\Data_Terminal.Resources.resources
+C:\Users\User\Documents\Data Terminal\Data Terminal\obj\Debug\Data Terminal.vbproj.GenerateResource.Cache
+C:\Users\User\Documents\Data Terminal\Data Terminal\bin\Debug\Database1.mdf
+C:\Users\User\Documents\Data Terminal\Data Terminal\bin\Debug\Database1_log.ldf
+C:\Users\User\Documents\Data Terminal\Data Terminal\bin\Debug\Data Terminal.exe
+C:\Users\User\Documents\Data Terminal\Data Terminal\bin\Debug\Data Terminal.pdb
+C:\Users\User\Documents\Data Terminal\Data Terminal\bin\Debug\Data Terminal.xml
+D:\All Files\Documents\Documents\Data Terminal\Data Terminal\bin\Debug\Data Terminal.exe.config
+D:\All Files\Documents\Documents\Data Terminal\Data Terminal\obj\Debug\Data Terminal.exe
+D:\All Files\Documents\Documents\Data Terminal\Data Terminal\obj\Debug\Data Terminal.xml
+D:\All Files\Documents\Documents\Data Terminal\Data Terminal\obj\Debug\Data Terminal.pdb
